@@ -1,0 +1,900 @@
+//+ Name: World percussion
+//+ Date: 2020-09-05
+//+ URL: http://freepats.zenvoid.org/Percussion/world-and-rare-percussion.html
+
+<global>
+ //+ Instrument: World Percussion
+ ampeg_release=100
+ loop_mode=no_loop
+
+
+// Cajón flamenco 1
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ seq_length=11
+<region>
+ seq_position=1
+ sample=samples/CajonFlamenco/101.flac
+<region>
+ seq_position=2
+ sample=samples/CajonFlamenco/102.flac
+<region>
+ seq_position=3
+ sample=samples/CajonFlamenco/216.flac
+<region>
+ seq_position=4
+ sample=samples/CajonFlamenco/201.flac
+<region>
+ seq_position=5
+ sample=samples/CajonFlamenco/214.flac
+<region>
+ seq_position=6
+ sample=samples/CajonFlamenco/104.flac
+<region>
+ seq_position=7
+ sample=samples/CajonFlamenco/219.flac
+<region>
+ seq_position=8
+ sample=samples/CajonFlamenco/105.flac
+<region>
+ seq_position=9
+ sample=samples/CajonFlamenco/103.flac
+<region>
+ seq_position=10
+ sample=samples/CajonFlamenco/221.flac
+<region>
+ seq_position=11
+ sample=samples/CajonFlamenco/202.flac
+
+
+// Cajón Flamenco 3
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+<region>
+ lorand=0.0 hirand=0.5
+ sample=samples/CajonFlamenco/217.flac
+<region>
+ lorand=0.5 hirand=1.0
+ sample=samples/CajonFlamenco/218.flac
+
+
+// Cajón flamenco 2
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ seq_length=16
+<region>
+ seq_position=1
+ sample=samples/CajonFlamenco/106.flac
+<region>
+ seq_position=2
+ sample=samples/CajonFlamenco/107.flac
+<region>
+ seq_position=3
+ sample=samples/CajonFlamenco/109.flac
+<region>
+ seq_position=4
+ sample=samples/CajonFlamenco/110.flac
+<region>
+ seq_position=5
+ sample=samples/CajonFlamenco/115.flac
+<region>
+ seq_position=6
+ sample=samples/CajonFlamenco/203.flac
+<region>
+ seq_position=7
+ sample=samples/CajonFlamenco/206.flac
+<region>
+ seq_position=8
+ sample=samples/CajonFlamenco/205.flac
+<region>
+ seq_position=9
+ sample=samples/CajonFlamenco/212.flac
+<region>
+ seq_position=10
+ sample=samples/CajonFlamenco/111.flac
+<region>
+ seq_position=11
+ sample=samples/CajonFlamenco/204.flac
+<region>
+ seq_position=12
+ sample=samples/CajonFlamenco/222.flac
+<region>
+ seq_position=13
+ sample=samples/CajonFlamenco/211.flac
+<region>
+ seq_position=14
+ sample=samples/CajonFlamenco/208.flac
+<region>
+ seq_position=15
+ sample=samples/CajonFlamenco/209.flac
+<region>
+ seq_position=16
+ sample=samples/CajonFlamenco/210.flac
+
+
+// Bongo muted
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+<region>
+ lorand=0.0 hirand=0.3333
+ sample=samples/Bongos/2_08.flac
+<region>
+ lorand=0.3333 hirand=0.6666
+ sample=samples/Bongos/2_18.flac
+<region>
+ lorand=0.6666 hirand=1.0
+ sample=samples/Bongos/2_19.flac
+
+
+// Bongo high
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ seq_length=11
+<region>
+ seq_position=1
+ sample=samples/Bongos/1_01.flac
+<region>
+ seq_position=2
+ sample=samples/Bongos/1_02.flac
+<region>
+ seq_position=3
+ sample=samples/Bongos/1_06.flac
+<region>
+ seq_position=4
+ sample=samples/Bongos/1_08.flac
+<region>
+ seq_position=5
+ sample=samples/Bongos/1_12.flac
+<region>
+ seq_position=6
+ sample=samples/Bongos/1_13.flac
+<region>
+ seq_position=7
+ sample=samples/Bongos/1_04.flac
+<region>
+ seq_position=8
+ sample=samples/Bongos/1_05.flac
+<region>
+ seq_position=9
+ sample=samples/Bongos/1_07.flac
+<region>
+ seq_position=10
+ sample=samples/Bongos/1_10.flac
+<region>
+ seq_position=11
+ sample=samples/Bongos/1_11.flac
+
+
+// Bongo low (low velocity)
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ hivel=55
+ seq_length=8
+<region>
+ seq_position=1
+ sample=samples/Bongos/2_06.flac
+<region>
+ seq_position=2
+ sample=samples/Bongos/2_01.flac
+<region>
+ seq_position=3
+ sample=samples/Bongos/2_07.flac
+<region>
+ seq_position=4
+ sample=samples/Bongos/2_20.flac
+<region>
+ seq_position=5
+ sample=samples/Bongos/2_13.flac
+<region>
+ seq_position=6
+ sample=samples/Bongos/2_14.flac
+<region>
+ seq_position=7
+ sample=samples/Bongos/2_15.flac
+<region>
+ seq_position=8
+ sample=samples/Bongos/2_17.flac
+
+
+// Bongo low (high velocity)
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=56
+ seq_length=9
+<region>
+ seq_position=1
+ sample=samples/Bongos/2_10.flac
+<region>
+ seq_position=2
+ sample=samples/Bongos/2_11.flac
+<region>
+ seq_position=3
+ sample=samples/Bongos/2_12.flac
+<region>
+ seq_position=4
+ sample=samples/Bongos/2_13.flac
+<region>
+ seq_position=5
+ sample=samples/Bongos/2_14.flac
+<region>
+ seq_position=6
+ sample=samples/Bongos/2_15.flac
+<region>
+ seq_position=7
+ sample=samples/Bongos/2_16.flac
+<region>
+ seq_position=8
+ sample=samples/Bongos/2_03.flac
+<region>
+ seq_position=9
+ sample=samples/Bongos/2_17.flac
+
+
+// Egg shaker slow
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ seq_length=14
+<region>
+ seq_position=1
+ sample=samples/EggShaker/slow_01.wav
+<region>
+ seq_position=2
+ sample=samples/EggShaker/slow_02.wav
+<region>
+ seq_position=3
+ sample=samples/EggShaker/slow_03.wav
+<region>
+ seq_position=4
+ sample=samples/EggShaker/slow_04.wav
+<region>
+ seq_position=5
+ sample=samples/EggShaker/slow_05.wav
+<region>
+ seq_position=6
+ sample=samples/EggShaker/slow_06.wav
+<region>
+ seq_position=7
+ sample=samples/EggShaker/slow_07.wav
+<region>
+ seq_position=8
+ sample=samples/EggShaker/slow_08.wav
+<region>
+ seq_position=9
+ sample=samples/EggShaker/slow_09.wav
+<region>
+ seq_position=10
+ sample=samples/EggShaker/slow_10.wav
+<region>
+ seq_position=11
+ sample=samples/EggShaker/slow_11.wav
+<region>
+ seq_position=12
+ sample=samples/EggShaker/slow_12.wav
+<region>
+ seq_position=13
+ sample=samples/EggShaker/slow_13.wav
+<region>
+ seq_position=14
+ sample=samples/EggShaker/slow_14.wav
+
+
+// Egg shaker fast
+
+<group>
+ //+ RandomRegion: Yes
+ key=55
+ seq_length=11
+<region>
+ seq_position=1
+ sample=samples/EggShaker/fast_02.flac
+<region>
+ seq_position=2
+ sample=samples/EggShaker/fast_03.flac
+<region>
+ seq_position=3
+ sample=samples/EggShaker/fast_04.flac
+<region>
+ seq_position=4
+ sample=samples/EggShaker/fast_05.wav
+<region>
+ seq_position=5
+ sample=samples/EggShaker/fast_06.flac
+<region>
+ seq_position=6
+ sample=samples/EggShaker/fast_07.flac
+<region>
+ seq_position=7
+ sample=samples/EggShaker/fast_08.flac
+<region>
+ seq_position=8
+ sample=samples/EggShaker/fast_09.flac
+<region>
+ seq_position=9
+ sample=samples/EggShaker/fast_10.flac
+<region>
+ seq_position=10
+ sample=samples/EggShaker/fast_11.flac
+<region>
+ seq_position=11
+ sample=samples/EggShaker/fast_12.flac
+
+
+// Egg shaker soft
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ seq_length=14
+<region>
+ seq_position=1
+ sample=samples/EggShaker/soft_01.wav
+<region>
+ seq_position=2
+ sample=samples/EggShaker/soft_02.wav
+<region>
+ seq_position=3
+ sample=samples/EggShaker/soft_03.wav
+<region>
+ seq_position=4
+ sample=samples/EggShaker/soft_04.wav
+<region>
+ seq_position=5
+ sample=samples/EggShaker/soft_05.wav
+<region>
+ seq_position=6
+ sample=samples/EggShaker/soft_06.wav
+<region>
+ seq_position=7
+ sample=samples/EggShaker/soft_07.wav
+<region>
+ seq_position=8
+ sample=samples/EggShaker/soft_08.wav
+<region>
+ seq_position=9
+ sample=samples/EggShaker/soft_09.wav
+<region>
+ seq_position=10
+ sample=samples/EggShaker/soft_10.wav
+<region>
+ seq_position=11
+ sample=samples/EggShaker/soft_11.wav
+<region>
+ seq_position=12
+ sample=samples/EggShaker/soft_12.wav
+<region>
+ seq_position=13
+ sample=samples/EggShaker/soft_13.wav
+<region>
+ seq_position=14
+ sample=samples/EggShaker/soft_14.wav
+
+
+// Tambourine
+
+<group>
+ //+ RandomRegion: Yes
+ key=57
+<region>
+ lorand=0 hirand=0.1
+ sample=samples/Tambourine/01_01.flac
+<region>
+ lorand=0.1 hirand=0.2
+ sample=samples/Tambourine/02_01.flac
+<region>
+ lorand=0.2 hirand=0.3
+ sample=samples/Tambourine/03_01.flac
+<region>
+ lorand=0.3 hirand=0.4
+ sample=samples/Tambourine/04_01.flac
+<region>
+ lorand=0.4 hirand=0.5
+ sample=samples/Tambourine/05.flac
+<region>
+ lorand=0.5 hirand=0.6
+ sample=samples/Tambourine/06.flac
+<region>
+ lorand=0.6 hirand=0.7
+ sample=samples/Tambourine/07.flac
+<region>
+ lorand=0.7 hirand=0.8
+ sample=samples/Tambourine/08.flac
+<region>
+ lorand=0.8 hirand=0.9
+ sample=samples/Tambourine/09.flac
+<region>
+ lorand=0.9 hirand=1
+ sample=samples/Tambourine/10.flac
+
+
+// Tambourine fast
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+ seq_length=14
+<region>
+ seq_position=1
+ sample=samples/Tambourine/fast_03.wav
+<region>
+ seq_position=2
+ sample=samples/Tambourine/fast_04.wav
+<region>
+ seq_position=3
+ sample=samples/Tambourine/fast_05.wav
+<region>
+ seq_position=4
+ sample=samples/Tambourine/fast_06.wav
+<region>
+ seq_position=5
+ sample=samples/Tambourine/fast_07.wav
+<region>
+ seq_position=6
+ sample=samples/Tambourine/fast_08.wav
+<region>
+ seq_position=7
+ sample=samples/Tambourine/fast_09.wav
+<region>
+ seq_position=8
+ sample=samples/Tambourine/fast_10.wav
+<region>
+ seq_position=9
+ sample=samples/Tambourine/fast_11.wav
+<region>
+ seq_position=10
+ sample=samples/Tambourine/fast_12.wav
+<region>
+ seq_position=11
+ sample=samples/Tambourine/fast_13.wav
+<region>
+ seq_position=12
+ sample=samples/Tambourine/fast_14.wav
+<region>
+ seq_position=13
+ sample=samples/Tambourine/fast_15.wav
+<region>
+ seq_position=14
+ sample=samples/Tambourine/fast_16.wav
+
+
+// Hand Clap
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+<region>
+ lorand=0 hirand=0.1111
+ sample=samples/HandClap/01_02.flac
+<region>
+ lorand=0.1111 hirand=0.2222
+ sample=samples/HandClap/01_03.flac
+<region>
+ lorand=0.2222 hirand=0.3333
+ sample=samples/HandClap/01_05.flac
+<region>
+ lorand=0.3333 hirand=0.4444
+ sample=samples/HandClap/01_06.flac
+<region>
+ lorand=0.4444 hirand=0.5555
+ sample=samples/HandClap/01_07.flac
+<region>
+ lorand=0.5555 hirand=0.6666
+ sample=samples/HandClap/01_08.flac
+<region>
+ lorand=0.6666 hirand=0.7777
+ sample=samples/HandClap/01_09.flac
+<region>
+ lorand=0.7777 hirand=0.8888
+ sample=samples/HandClap/02_02.flac
+<region>
+ lorand=0.8888 hirand=1
+ sample=samples/HandClap/02_05.flac
+
+
+// Claves
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Claves/01.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Claves/02.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Claves/03.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Claves/04.flac
+
+
+// Castanets
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ seq_length=16
+<region>
+ seq_position=1
+ sample=samples/Castanets/01.flac
+<region>
+ seq_position=2
+ sample=samples/Castanets/02.flac
+<region>
+ seq_position=3
+ sample=samples/Castanets/03.flac
+<region>
+ seq_position=4
+ sample=samples/Castanets/04.flac
+<region>
+ seq_position=5
+ sample=samples/Castanets/05.flac
+<region>
+ seq_position=6
+ sample=samples/Castanets/06.flac
+<region>
+ seq_position=7
+ sample=samples/Castanets/07.flac
+<region>
+ seq_position=8
+ sample=samples/Castanets/08.flac
+<region>
+ seq_position=9
+ sample=samples/Castanets/09.flac
+<region>
+ seq_position=10
+ sample=samples/Castanets/10.flac
+<region>
+ seq_position=11
+ sample=samples/Castanets/11.flac
+<region>
+ seq_position=12
+ sample=samples/Castanets/12.flac
+<region>
+ seq_position=13
+ sample=samples/Castanets/13.flac
+<region>
+ seq_position=14
+ sample=samples/Castanets/14.flac
+<region>
+ seq_position=15
+ sample=samples/Castanets/15.flac
+<region>
+ seq_position=16
+ sample=samples/Castanets/16.flac
+
+
+// Conga
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+<region>
+ lorand=0 hirand=0.125
+ sample=samples/Conga/v2_01_01.flac
+<region>
+ lorand=0.125 hirand=0.25
+ sample=samples/Conga/v2_01_02.flac
+<region>
+ lorand=0.25 hirand=0.375
+ sample=samples/Conga/v2_02_01.flac
+<region>
+ lorand=0.375 hirand=0.5
+ sample=samples/Conga/v2_02_02.flac
+<region>
+ lorand=0.5 hirand=0.625
+ sample=samples/Conga/v3_01_01.flac
+<region>
+ lorand=0.625 hirand=0.75
+ sample=samples/Conga/v3_01_02.flac
+<region>
+ lorand=0.75 hirand=0.875
+ sample=samples/Conga/v3_02_01.flac
+<region>
+ lorand=0.875 hirand=1
+ sample=samples/Conga/v3_02_02.flac
+
+
+// Low Conga
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+<region>
+ lorand=0 hirand=0.1667
+ sample=samples/LowConga/v4_01_01.flac
+<region>
+ lorand=0.1667 hirand=0.3333
+ sample=samples/LowConga/v4_01_02.flac
+<region>
+ lorand=0.3333 hirand=0.5
+ sample=samples/LowConga/v3_01_01.flac
+<region>
+ lorand=0.5 hirand=0.6667
+ sample=samples/LowConga/v3_01_02.flac
+<region>
+ lorand=0.6667 hirand=0.8333
+ sample=samples/LowConga/v3_02_01.flac
+<region>
+ lorand=0.8333 hirand=1
+ sample=samples/LowConga/v3_02_02.flac
+
+
+// High Conga
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+<region>
+ lorand=0 hirand=0.125
+ sample=samples/HighConga/v2_01_01.flac
+<region>
+ lorand=0.125 hirand=0.25
+ sample=samples/HighConga/v2_01_02.flac
+<region>
+ lorand=0.25 hirand=0.375
+ sample=samples/HighConga/v2_02_01.flac
+<region>
+ lorand=0.375 hirand=0.5
+ sample=samples/HighConga/v2_02_02.flac
+<region>
+ lorand=0.5 hirand=0.625
+ sample=samples/HighConga/v3_01_01.flac
+<region>
+ lorand=0.625 hirand=0.75
+ sample=samples/HighConga/v3_01_02.flac
+<region>
+ lorand=0.75 hirand=0.875
+ sample=samples/HighConga/v3_02_01.flac
+<region>
+ lorand=0.875 hirand=1
+ sample=samples/HighConga/v3_02_02.flac
+
+
+// Muted Conga
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+<region>
+ lorand=0 hirand=0.125
+ sample=samples/MutedConga/v1_02_01.flac
+<region>
+ lorand=0.125 hirand=0.25
+ sample=samples/MutedConga/v1_02_02.flac
+<region>
+ lorand=0.25 hirand=0.375
+ sample=samples/MutedConga/v2_02_01.flac
+<region>
+ lorand=0.375 hirand=0.5
+ sample=samples/MutedConga/v2_02_02.flac
+<region>
+ lorand=0.5 hirand=0.625
+ sample=samples/MutedConga/High_v2_01_01.flac
+<region>
+ lorand=0.625 hirand=0.75
+ sample=samples/MutedConga/High_v2_01_02.flac
+<region>
+ lorand=0.75 hirand=0.875
+ sample=samples/MutedConga/High_v2_02_01.flac
+<region>
+ lorand=0.875 hirand=1
+ sample=samples/MutedConga/High_v2_02_02.flac
+
+
+// Muted Low Conga
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+<region>
+ lorand=0 hirand=0.125
+ sample=samples/MutedLowConga/v4_01_01.flac
+<region>
+ lorand=0.125 hirand=0.25
+ sample=samples/MutedLowConga/v4_01_02.flac
+<region>
+ lorand=0.25 hirand=0.375
+ sample=samples/MutedLowConga/v4_02_01.flac
+<region>
+ lorand=0.375 hirand=0.5
+ sample=samples/MutedLowConga/v4_02_02.flac
+<region>
+ lorand=0.5 hirand=0.625
+ sample=samples/MutedLowConga/v3_01_01.flac
+<region>
+ lorand=0.625 hirand=0.75
+ sample=samples/MutedLowConga/v3_01_02.flac
+<region>
+ lorand=0.75 hirand=0.875
+ sample=samples/MutedLowConga/v3_02_01.flac
+<region>
+ lorand=0.875 hirand=1
+ sample=samples/MutedLowConga/v3_02_02.flac
+
+
+// Maracas fw
+
+<group>
+ //+ RandomRegion: Yes
+ key=67
+<region>
+ lorand=0 hirand=0.125
+ sample=samples/Maracas/01_01.flac
+<region>
+ lorand=0.125 hirand=0.25
+ sample=samples/Maracas/01_02.flac
+<region>
+ lorand=0.25 hirand=0.375
+ sample=samples/Maracas/01_03.flac
+<region>
+ lorand=0.375 hirand=0.5
+ sample=samples/Maracas/01_04.flac
+<region>
+ lorand=0.5 hirand=0.625
+ sample=samples/Maracas/01_05.flac
+<region>
+ lorand=0.625 hirand=0.75
+ sample=samples/Maracas/01_06.flac
+<region>
+ lorand=0.75 hirand=0.875
+ sample=samples/Maracas/01_07.flac
+<region>
+ lorand=0.875 hirand=1
+ sample=samples/Maracas/01_08.flac
+
+
+// Maracas bw
+
+<group>
+ //+ RandomRegion: Yes
+ key=68
+<region>
+ lorand=0 hirand=0.0833
+ sample=samples/Maracas/02_01.flac
+<region>
+ lorand=0.0833 hirand=0.1667
+ sample=samples/Maracas/02_02.flac
+<region>
+ lorand=0.1667 hirand=0.25
+ sample=samples/Maracas/02_03.wav
+<region>
+ lorand=0.25 hirand=0.3333
+ sample=samples/Maracas/02_04.flac
+<region>
+ lorand=0.3333 hirand=0.4167
+ sample=samples/Maracas/02_05.flac
+<region>
+ lorand=0.4167 hirand=0.5
+ sample=samples/Maracas/02_06.flac
+<region>
+ lorand=0.5 hirand=0.5833
+ sample=samples/Maracas/02_07.flac
+<region>
+ lorand=0.5833 hirand=0.6667
+ sample=samples/Maracas/02_08.flac
+<region>
+ lorand=0.6667 hirand=0.75
+ sample=samples/Maracas/02_09.flac
+<region>
+ lorand=0.75 hirand=0.8333
+ sample=samples/Maracas/02_10.flac
+<region>
+ lorand=0.8333 hirand=0.9167
+ sample=samples/Maracas/02_11.wav
+<region>
+ lorand=0.9167 hirand=1
+ sample=samples/Maracas/02_12.flac
+
+
+// Darbuka doom
+
+<group>
+ //+ RandomRegion: Yes
+ key=69
+<region>
+ lorand=0 hirand=0.0833
+ sample=samples/Darbuka/doom_01_01.flac
+<region>
+ lorand=0.0833 hirand=0.1667
+ sample=samples/Darbuka/doom_01_02.flac
+<region>
+ lorand=0.1667 hirand=0.25
+ sample=samples/Darbuka/doom_01_03.flac
+<region>
+ lorand=0.25 hirand=0.3333
+ sample=samples/Darbuka/doom_01_04.flac
+<region>
+ lorand=0.3333 hirand=0.4167
+ sample=samples/Darbuka/doom_01_05.flac
+<region>
+ lorand=0.4167 hirand=0.5
+ sample=samples/Darbuka/doom_01_06.flac
+<region>
+ lorand=0.5 hirand=0.5833
+ sample=samples/Darbuka/doom_01_07.flac
+<region>
+ lorand=0.5833 hirand=0.6667
+ sample=samples/Darbuka/doom_01_08.flac
+<region>
+ lorand=0.6667 hirand=0.75
+ sample=samples/Darbuka/doom_01_09.flac
+<region>
+ lorand=0.75 hirand=0.8333
+ sample=samples/Darbuka/doom_01_10.flac
+<region>
+ lorand=0.8333 hirand=0.9167
+ sample=samples/Darbuka/doom_01_11.flac
+<region>
+ lorand=0.9167 hirand=1
+ sample=samples/Darbuka/doom_01_12.flac
+
+
+// Darbuka tak
+
+<group>
+ //+ RandomRegion: Yes
+ key=70
+<region>
+ lorand=0 hirand=0.1429
+ sample=samples/Darbuka/tak_02_01.flac
+<region>
+ lorand=0.1429 hirand=0.2857
+ sample=samples/Darbuka/tak_02_02.flac
+<region>
+ lorand=0.2857 hirand=0.4286
+ sample=samples/Darbuka/tak_02_03.flac
+<region>
+ lorand=0.4286 hirand=0.5714
+ sample=samples/Darbuka/tak_02_04.flac
+<region>
+ lorand=0.5714 hirand=0.7142
+ sample=samples/Darbuka/tak_02_05.flac
+<region>
+ lorand=0.7142 hirand=0.8571
+ sample=samples/Darbuka/tak_02_06.flac
+<region>
+ lorand=0.8571 hirand=1
+ sample=samples/Darbuka/tak_02_07.flac
+
+
+// Darbuka pa
+
+<group>
+ //+ RandomRegion: Yes
+ key=71
+<region>
+ lorand=0 hirand=0.1667
+ sample=samples/Darbuka/pa_03_01.flac
+<region>
+ lorand=0.1667 hirand=0.3333
+ sample=samples/Darbuka/pa_03_02.flac
+<region>
+ lorand=0.3333 hirand=0.5
+ sample=samples/Darbuka/pa_03_03.flac
+<region>
+ lorand=0.5 hirand=0.6667
+ sample=samples/Darbuka/pa_03_04.flac
+<region>
+ lorand=0.6667 hirand=0.8333
+ sample=samples/Darbuka/pa_03_05.flac
+<region>
+ lorand=0.8333 hirand=1
+ sample=samples/Darbuka/pa_03_07.flac
